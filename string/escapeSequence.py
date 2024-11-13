@@ -3,3 +3,4 @@ a ="utkarsh is a good \" hello how are you?\""
 
 print(a)
 
+#\n, \t, \;, \\
