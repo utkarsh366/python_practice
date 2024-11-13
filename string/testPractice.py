@@ -29,6 +29,7 @@
 
 # s = "hello  String"
 # print(s.count("  ")) # count double space in string
+# print(s.find("  ")) # replace double space with single space
 
                 # 4. Replace double space with single space
 # s = " hello string"
@@ -39,8 +40,8 @@
 # 5. write a program to format the following letter using escape equence character
 
 #letter = "dear utkarsh, this practice work is nice, Thank you!"
-letter = "Dear utkarsh,\nThis practice work is nice, Thank you!"
-print(letter)
+# letter = "Dear utkarsh,\n\tThis practice work is nice,\nThank you!"
+# print(letter)
 
 
 
