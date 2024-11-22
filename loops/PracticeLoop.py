@@ -46,8 +46,21 @@
 
 # 6. fqactorial of a given no with a for loop
 
-n = int(input ("Enter a no: "))
-product = 1
-for i in range(1, n+1):
-    product = product * i
-print(f"the factorial of product of {n} is {product}")
+# n = int(input ("Enter a no: "))
+# product = 1
+# for i in range(1, n+1):
+#     product = product * i
+# print(f"the factorial of product of {n} is {product}")
+
+# 7. write a program to print a star pattern, n =3
+#   *
+#  ***
+# *****
+n=3
+t = 3
+for i in range (n, 1):
+    for i in range (i,n-1):
+        print("*")
+
+    n= n-1
+
